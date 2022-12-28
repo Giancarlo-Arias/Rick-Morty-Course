@@ -7,9 +7,9 @@ export default function Characters(props) {
 
   return ( 
     <div className="characters">
-        <h1>Characters</h1>
+        <h1>Personajes</h1>
         <span className="back-home" onClick={resetCharacters}>
-            Back to home
+            Volver a la home
         </span>
         <div className="container-characters">
             {characters.map((character,index) => (/*Aqui se renderiza el array de objetos characters que se envia desde src\App.js*/
@@ -45,7 +45,7 @@ export default function Characters(props) {
             ))}
         </div>
         <span className="back-home" onClick={ resetCharacters } >
-            Back to home
+            Volver a la home
         </span>
         <br/>
         <br/>
